@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0079DA149CDFAA00FFABAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0079D9149CDFAA00FFABAE /* UIKit.framework */; };
+		3F0079DC149CDFAA00FFABAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0079DB149CDFAA00FFABAE /* Foundation.framework */; };
+		3F0079DE149CDFAA00FFABAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0079DD149CDFAA00FFABAE /* CoreGraphics.framework */; };
+		3F0079E4149CDFAA00FFABAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0079E2149CDFAA00FFABAE /* InfoPlist.strings */; };
+		3F0079E6149CDFAA00FFABAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0079E5149CDFAA00FFABAE /* main.m */; };
+		3F0079EA149CDFAA00FFABAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0079E9149CDFAA00FFABAE /* AppDelegate.m */; };
+		3F0079ED149CDFAA00FFABAE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0079EC149CDFAA00FFABAE /* RootViewController.m */; };
+		3F0079F0149CDFAA00FFABAE /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0079EF149CDFAA00FFABAE /* DataViewController.m */; };
+		3F0079F3149CDFAA00FFABAE /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0079F2149CDFAA00FFABAE /* ModelController.m */; };
+		3F0079F6149CDFAA00FFABAE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0079F4149CDFAA00FFABAE /* MainStoryboard_iPhone.storyboard */; };
+		3F0079F9149CDFAA00FFABAE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0079F7149CDFAA00FFABAE /* MainStoryboard_iPad.storyboard */; };
+		3F007A01149CDFAA00FFABAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F007A00149CDFAA00FFABAE /* SenTestingKit.framework */; };
+		3F007A02149CDFAA00FFABAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0079D9149CDFAA00FFABAE /* UIKit.framework */; };
+		3F007A03149CDFAA00FFABAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0079DB149CDFAA00FFABAE /* Foundation.framework */; };
+		3F007A0B149CDFAA00FFABAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F007A09149CDFAA00FFABAE /* InfoPlist.strings */; };
+		3F007A0E149CDFAA00FFABAE /* ColtogumTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F007A0D149CDFAA00FFABAE /* ColtogumTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F007A04149CDFAA00FFABAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0079CC149CDFAA00FFABAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0079D4149CDFAA00FFABAE;
+			remoteInfo = ColtogumTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0079D5149CDFAA00FFABAE /* ColtogumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColtogumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0079D9149CDFAA00FFABAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F0079DB149CDFAA00FFABAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F0079DD149CDFAA00FFABAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F0079E1149CDFAA00FFABAE /* ColtogumTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColtogumTest-Info.plist"; sourceTree = "<group>"; };
+		3F0079E3149CDFAA00FFABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F0079E5149CDFAA00FFABAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0079E7149CDFAA00FFABAE /* ColtogumTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColtogumTest-Prefix.pch"; sourceTree = "<group>"; };
+		3F0079E8149CDFAA00FFABAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0079E9149CDFAA00FFABAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0079EB149CDFAA00FFABAE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3F0079EC149CDFAA00FFABAE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3F0079EE149CDFAA00FFABAE /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3F0079EF149CDFAA00FFABAE /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3F0079F1149CDFAA00FFABAE /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		3F0079F2149CDFAA00FFABAE /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		3F0079F5149CDFAA00FFABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3F0079F8149CDFAA00FFABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3F0079FF149CDFAA00FFABAE /* ColtogumTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColtogumTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F007A00149CDFAA00FFABAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F007A08149CDFAA00FFABAE /* ColtogumTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColtogumTestTests-Info.plist"; sourceTree = "<group>"; };
+		3F007A0A149CDFAA00FFABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F007A0C149CDFAA00FFABAE /* ColtogumTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColtogumTestTests.h; sourceTree = "<group>"; };
+		3F007A0D149CDFAA00FFABAE /* ColtogumTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColtogumTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0079D2149CDFAA00FFABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0079DA149CDFAA00FFABAE /* UIKit.framework in Frameworks */,
+				3F0079DC149CDFAA00FFABAE /* Foundation.framework in Frameworks */,
+				3F0079DE149CDFAA00FFABAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0079FB149CDFAA00FFABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F007A01149CDFAA00FFABAE /* SenTestingKit.framework in Frameworks */,
+				3F007A02149CDFAA00FFABAE /* UIKit.framework in Frameworks */,
+				3F007A03149CDFAA00FFABAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0079CA149CDFAA00FFABAE = {
+			isa = PBXGroup;
+			children = (
+				3F0079DF149CDFAA00FFABAE /* ColtogumTest */,
+				3F007A06149CDFAA00FFABAE /* ColtogumTestTests */,
+				3F0079D8149CDFAA00FFABAE /* Frameworks */,
+				3F0079D6149CDFAA00FFABAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0079D6149CDFAA00FFABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0079D5149CDFAA00FFABAE /* ColtogumTest.app */,
+				3F0079FF149CDFAA00FFABAE /* ColtogumTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0079D8149CDFAA00FFABAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0079D9149CDFAA00FFABAE /* UIKit.framework */,
+				3F0079DB149CDFAA00FFABAE /* Foundation.framework */,
+				3F0079DD149CDFAA00FFABAE /* CoreGraphics.framework */,
+				3F007A00149CDFAA00FFABAE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F0079DF149CDFAA00FFABAE /* ColtogumTest */ = {
+			isa = PBXGroup;
+			children = (
+				3F0079E8149CDFAA00FFABAE /* AppDelegate.h */,
+				3F0079E9149CDFAA00FFABAE /* AppDelegate.m */,
+				3F0079EB149CDFAA00FFABAE /* RootViewController.h */,
+				3F0079EC149CDFAA00FFABAE /* RootViewController.m */,
+				3F0079EE149CDFAA00FFABAE /* DataViewController.h */,
+				3F0079EF149CDFAA00FFABAE /* DataViewController.m */,
+				3F0079F1149CDFAA00FFABAE /* ModelController.h */,
+				3F0079F2149CDFAA00FFABAE /* ModelController.m */,
+				3F0079F4149CDFAA00FFABAE /* MainStoryboard_iPhone.storyboard */,
+				3F0079F7149CDFAA00FFABAE /* MainStoryboard_iPad.storyboard */,
+				3F0079E0149CDFAA00FFABAE /* Supporting Files */,
+			);
+			path = ColtogumTest;
+			sourceTree = "<group>";
+		};
+		3F0079E0149CDFAA00FFABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0079E1149CDFAA00FFABAE /* ColtogumTest-Info.plist */,
+				3F0079E2149CDFAA00FFABAE /* InfoPlist.strings */,
+				3F0079E5149CDFAA00FFABAE /* main.m */,
+				3F0079E7149CDFAA00FFABAE /* ColtogumTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F007A06149CDFAA00FFABAE /* ColtogumTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F007A0C149CDFAA00FFABAE /* ColtogumTestTests.h */,
+				3F007A0D149CDFAA00FFABAE /* ColtogumTestTests.m */,
+				3F007A07149CDFAA00FFABAE /* Supporting Files */,
+			);
+			path = ColtogumTestTests;
+			sourceTree = "<group>";
+		};
+		3F007A07149CDFAA00FFABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F007A08149CDFAA00FFABAE /* ColtogumTestTests-Info.plist */,
+				3F007A09149CDFAA00FFABAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0079D4149CDFAA00FFABAE /* ColtogumTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F007A11149CDFAA00FFABAE /* Build configuration list for PBXNativeTarget "ColtogumTest" */;
+			buildPhases = (
+				3F0079D1149CDFAA00FFABAE /* Sources */,
+				3F0079D2149CDFAA00FFABAE /* Frameworks */,
+				3F0079D3149CDFAA00FFABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColtogumTest;
+			productName = ColtogumTest;
+			productReference = 3F0079D5149CDFAA00FFABAE /* ColtogumTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0079FE149CDFAA00FFABAE /* ColtogumTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F007A14149CDFAA00FFABAE /* Build configuration list for PBXNativeTarget "ColtogumTestTests" */;
+			buildPhases = (
+				3F0079FA149CDFAA00FFABAE /* Sources */,
+				3F0079FB149CDFAA00FFABAE /* Frameworks */,
+				3F0079FC149CDFAA00FFABAE /* Resources */,
+				3F0079FD149CDFAA00FFABAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F007A05149CDFAA00FFABAE /* PBXTargetDependency */,
+			);
+			name = ColtogumTestTests;
+			productName = ColtogumTestTests;
+			productReference = 3F0079FF149CDFAA00FFABAE /* ColtogumTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0079CC149CDFAA00FFABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "SFS services AG";
+			};
+			buildConfigurationList = 3F0079CF149CDFAA00FFABAE /* Build configuration list for PBXProject "ColtogumTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F0079CA149CDFAA00FFABAE;
+			productRefGroup = 3F0079D6149CDFAA00FFABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0079D4149CDFAA00FFABAE /* ColtogumTest */,
+				3F0079FE149CDFAA00FFABAE /* ColtogumTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0079D3149CDFAA00FFABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0079E4149CDFAA00FFABAE /* InfoPlist.strings in Resources */,
+				3F0079F6149CDFAA00FFABAE /* MainStoryboard_iPhone.storyboard in Resources */,
+				3F0079F9149CDFAA00FFABAE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0079FC149CDFAA00FFABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F007A0B149CDFAA00FFABAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F0079FD149CDFAA00FFABAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0079D1149CDFAA00FFABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0079E6149CDFAA00FFABAE /* main.m in Sources */,
+				3F0079EA149CDFAA00FFABAE /* AppDelegate.m in Sources */,
+				3F0079ED149CDFAA00FFABAE /* RootViewController.m in Sources */,
+				3F0079F0149CDFAA00FFABAE /* DataViewController.m in Sources */,
+				3F0079F3149CDFAA00FFABAE /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0079FA149CDFAA00FFABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F007A0E149CDFAA00FFABAE /* ColtogumTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F007A05149CDFAA00FFABAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0079D4149CDFAA00FFABAE /* ColtogumTest */;
+			targetProxy = 3F007A04149CDFAA00FFABAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0079E2149CDFAA00FFABAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0079E3149CDFAA00FFABAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F0079F4149CDFAA00FFABAE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0079F5149CDFAA00FFABAE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0079F7149CDFAA00FFABAE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0079F8149CDFAA00FFABAE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3F007A09149CDFAA00FFABAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F007A0A149CDFAA00FFABAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F007A0F149CDFAA00FFABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F007A10149CDFAA00FFABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F007A12149CDFAA00FFABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColtogumTest/ColtogumTest-Prefix.pch";
+				INFOPLIST_FILE = "ColtogumTest/ColtogumTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F007A13149CDFAA00FFABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColtogumTest/ColtogumTest-Prefix.pch";
+				INFOPLIST_FILE = "ColtogumTest/ColtogumTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F007A15149CDFAA00FFABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColtogumTest.app/ColtogumTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColtogumTest/ColtogumTest-Prefix.pch";
+				INFOPLIST_FILE = "ColtogumTestTests/ColtogumTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F007A16149CDFAA00FFABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColtogumTest.app/ColtogumTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColtogumTest/ColtogumTest-Prefix.pch";
+				INFOPLIST_FILE = "ColtogumTestTests/ColtogumTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0079CF149CDFAA00FFABAE /* Build configuration list for PBXProject "ColtogumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F007A0F149CDFAA00FFABAE /* Debug */,
+				3F007A10149CDFAA00FFABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F007A11149CDFAA00FFABAE /* Build configuration list for PBXNativeTarget "ColtogumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F007A12149CDFAA00FFABAE /* Debug */,
+				3F007A13149CDFAA00FFABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F007A14149CDFAA00FFABAE /* Build configuration list for PBXNativeTarget "ColtogumTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F007A15149CDFAA00FFABAE /* Debug */,
+				3F007A16149CDFAA00FFABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0079CC149CDFAA00FFABAE /* Project object */;
+}
